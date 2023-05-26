@@ -1,9 +1,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <app-search></app-search>
+<app-tags></app-tags>
 <ul>
   <li *ngFor="let food of foods">
-    <a routerLink="/food/1">
+    <a routerLink="/food/{{food.id}}">
       <img [src]="food.imageUrl" [alt]="food.name" />
       <div class="content">
         <div class="name">
