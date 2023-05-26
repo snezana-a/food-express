@@ -10,6 +10,7 @@ import { NgxStarRatingModule } from 'ngx-star-rating';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SearchComponent } from './components/partials/search/search.component';
 import { TagsComponent } from './components/partials/tags/tags.component';
+import { FoodPageComponent } from './components/pages/food-page/food-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TagsComponent } from './components/partials/tags/tags.component';
     HeaderComponent,
     HomeComponent,
     SearchComponent,
-    TagsComponent
+    TagsComponent,
+    FoodPageComponent
   ],
   imports: [
     BrowserModule,
